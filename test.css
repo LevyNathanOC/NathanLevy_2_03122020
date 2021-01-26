@@ -1,0 +1,368 @@
+@font-face {
+    font-family: 'ralewaymedium';
+    src: url('font/raleway-medium-webfont.woff2') format('woff2'), url('font/raleway-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'ralewaymedium';
+}
+
+.container {
+    margin: 30px;
+    margin-top: 0;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.menu-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu-links a:hover {
+    color: #0065FC;
+    color: inherit;
+}
+
+#lien-hebergements #lien-activites {
+    position: relative;
+    color: #0065FC;
+    font-weight: 400;
+}
+
+.menu-links .link:hover::before,
+#lien-hebergements::before {
+    position: relative;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: 100%;
+    top: -10px;
+    background: #0065FC;
+    position: absolute;
+}
+
+.menu-links .links {
+    position: relative;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: 100%;
+    background: #0065FC;
+    position: absolute;
+    top: -40px;
+}
+
+.lien-signup {
+    color: #0065FC;
+    font-weight: 600;
+}
+
+.menu-links li {
+    margin-left: 70px;
+}
+
+.find-hebergements {
+    margin-top: 60px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.downtown {
+    margin-top: -10px;
+}
+
+.search-bar {
+    display: inline-flex;
+    margin-top: -5px;
+}
+
+.gps-logo {
+    background-color: #F2F2F2;
+    padding: 16px 20px;
+    border-radius: 15px 0 0 15px;
+}
+
+.search-input {
+    border-left: none;
+    border-right: none;
+    border-top: #F2F2F2 1px solid;
+    border-bottom: #F2F2F2 1px solid;
+    padding: 17px 19px;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'ralewaymedium';
+    width: 14rem;
+}
+
+ ::placeholder {
+    color: black;
+    font-size: 1rem;
+}
+
+.button-search {
+    border-radius: 0 10px 10px 0;
+    background-color: #0065FC;
+    color: white;
+    border: none;
+    padding: 18px 17px;
+    font-weight: bold;
+    font-family: 'ralewaymedium';
+    font-size: 1rem;
+}
+
+.bar-nav {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    padding: 0;
+}
+
+.bar-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    border: 2px solid #d9d9d9;
+    border-radius: 2rem;
+    font-weight: bold;
+    padding: 0 1rem 0 0;
+    font-weight: bold;
+    height: 60px;
+}
+
+.icon-bar {
+    background-color: #DEEBFF;
+    border-radius: 100%;
+    color: #0065FC;
+    margin-right: 13px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter-nav {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'ralewaymedium';
+    margin-right: 32px;
+}
+
+.icon-help {
+    border: #d9d9d9 solid 1px;
+    border-radius: 100%;
+    padding: 6px 10px;
+    color: #0065FC;
+    margin-right: 5px
+}
+
+.last-header {
+    margin-top: 40px;
+}
+
+.title-hosting {
+    font-weight: bold;
+    margin: 20px 0 28px 0
+}
+
+.hosting-main {
+    background-color: #F2F2F2;
+    height: 580px;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    width: 875px;
+    margin-top: 42px;
+}
+
+.hosting-marseille {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 900px;
+    list-style: none;
+    padding: 0;
+    margin-top: 40px;
+}
+
+.hotel-item {
+    padding: 0;
+    margin: 0 29px 0 0;
+    background-color: white;
+    border-radius: 20px;
+    padding: 6px;
+    box-shadow: 0 0 16px #0000002e;
+}
+
+.hotel-item4 {
+    margin-top: 29px;
+}
+
+.hebergement-image {
+    border-radius: 16px 16px 0 0;
+    object-fit: cover;
+}
+
+.hebergements-text {
+    margin-left: 12px;
+}
+
+.item-test {
+    margin: 4px 12px 4px 12px;
+}
+
+.hosting-test {
+    margin: 0 12px 4px 12px;
+}
+
+.icon-shine {
+    color: #0065FC;
+}
+
+.icon-transp {
+    color: #d9d9d9;
+}
+
+.show-more {
+    font-weight: bold;
+    color: inherit;
+    margin-top: 35px;
+}
+
+.title-most-popular {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.most-popular {
+    background-color: #F2F2F2;
+    width: 400px;
+    font-family: 'ralewaymedium';
+    padding: 35px 10px 0 35px;
+    border-radius: 24px;
+    margin-top: 42px;
+    margin-left: 39px;
+}
+
+.most-popular-marseille {
+    list-style: none;
+    margin-left: -80px;
+    margin-top: 35px;
+}
+
+.most-popular-item {
+    background-color: white;
+    padding: 6px;
+    list-style: none;
+    border-radius: 20px;
+    box-shadow: 0 0 16px #0000002e;
+    width: 340px;
+    height: 135px;
+    margin-top: 32px;
+}
+
+.most-popular-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 130px;
+    margin-top: -130px;
+}
+
+.icon-popular {
+    margin-left: 130px;
+}
+
+.popular-image {
+    border-radius: 16px 0 0 16px;
+    object-fit: cover;
+}
+
+.night-popular {
+    margin: 8px 0 0 17px
+}
+
+.night-text {
+    margin: 0 0 0 17px;
+}
+
+.icon-popular {
+    margin-top: 19px;
+    padding-left: 15px;
+}
+
+#hebergements-marseille {
+    display: flex;
+}
+
+.activites-item1 {
+    background: white;
+    width: 301px;
+    box-shadow: 10px 5px 5px #0000002e;
+    padding: 0;
+    border-radius: 20px;
+}
+
+.activites-item2 {
+    background: white;
+    width: 304px;
+    box-shadow: 10px 5px 5px #0000002e;
+    padding: 0;
+    border-radius: 20px;
+}
+
+.activites-image {
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+
+.activites-list {
+    list-style: none;
+    display: flex;
+}
+
+footer {
+    padding-bottom: 100px;
+}
+
+.last-part {
+    display: flex;
+    justify-content: space-around;
+    background: #F2F2F2;
+    align-items: flex-start;
+    height: 200px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    padding-right: 180px;
+    margin-top: 45px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.item {
+    margin-top: 15px;
+}
