@@ -1,15 +1,22 @@
 @media only screen and (max-width:426px) {
+    body {
+        margin: 0px;
+    }
     .container {
         margin: 0 auto;
     }
-    .link {
-        position: relative;
-        top: 60px;
-        right: 170px;
+    .container-header {
+        display: flex;
+        flex-direction: column;
     }
     .lien-signup {
         position: absolute;
+        top: 25px;
         right: 5px;
+    }
+    .link {
+        position: relative;
+        right: 50px;
     }
     .lien-hebergements::before {
         position: relative;
@@ -21,9 +28,6 @@
         position: absolute;
         top: 30px;
     }
-    .find-hebergements {
-        margin-top: 80px;
-    }
     .search-bar {
         width: 285px;
     }
@@ -34,8 +38,7 @@
     .search {
         display: none;
     }
-    .fa-search {
-        display: block;
+    i.fa-search {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -66,13 +69,14 @@
         margin-left: 15px;
     }
     .most-popular {
-        width: 285px;
+        width: 417px;
         border-radius: 0;
         margin: 0;
     }
     .hosting-main {
         background: none;
         padding: 0;
+        margin-left: 18px;
     }
     .hotel-item {
         width: 320px;
@@ -106,72 +110,103 @@
     }
 }
 
-@media screen and (min-width:339px) and (max-width:376px) {
-    .most-popular {
-        width: 320px;
-        border-radius: 0;
-        margin: 0;
-    }
-}
 
+}
 @media screen and (min-width:377px) and (max-width:426px) {
     .search-bar {
         width: 370px;
     }
+    
     .most-popular {
         width: 370px;
     }
+    
     .hotel-item {
         width: 370px;
         margin-left: 0;
         margin-right: 0;
     }
+    
     .hebergement-image {
         width: 370px;
     }
+    
     .activites-image {
         width: 370px;
         height: 133px;
     }
+    
     .activites-item {
         width: 370px;
     }
 }
-
 @media screen and (min-width:320px) and (max-width:339px) {
     .most-popular {
         width: 266px;
         border-radius: 0;
         margin: 0;
     }
+    
     .hotel-item {
         width: 300px;
         margin-left: 0;
         margin-right: 0;
     }
+    
     .hebergement-image {
         width: 300px;
     }
+    
+    .hosting-main {
+        margin-left: 7px;
+    }
+    
     .hosting-marseille {
         margin-left: 0;
     }
+    
     .activites-image {
         width: 280px;
         height: 133px;
     }
+    
     .activites-item {
         width: 280px;
     }
+    
     .activites-list {
         margin-left: 10px;
     }
 }
-
 @media screen and (min-width:340px) and (max-width:376px) {
-    .activites-list {
-        margin-left: 20px;
+    .lien-signup {
+        position: absolute;
+        top: 18px;
     }
+    
+    .activites-list {
+        margin-left: 30px;
+    }
+    
     .hosting-marseille {
-        margin-left: 0;
+        margin-left: 10px;
+    }
+    
+    .activites-image {
+        width: 370px;
+        height: 133px;
+    }
+    
+    .activites-item {
+        width: 370px;
+    }
+    
+    .hotel-item {
+        width: 370px;
+        margin-left: 15px;
+    }
+    
+    .hebergement-image {
+        width: 370px;
     }
 }
