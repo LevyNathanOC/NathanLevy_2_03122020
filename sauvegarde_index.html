@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="styles2.css">
-
     <script src="https://kit.fontawesome.com/608be57513.js" crossorigin="anonymous"></script>
     <title>Reservia</title>
 </head>
@@ -41,20 +40,27 @@
                     <span class="gps-logo"><i class="fas fa-map-marker-alt"></i></span>
                     <input class="search-input" placeholder="Marseille,France">
 
-                    <button class="button-search" id="nav-search"><span class="search">Rechercher</span></button>
+                    <button class="button-search" id="nav-search"><span class="search">
+                            Rechercher</span><i class="fas fa-search"></i></button>
                 </p>
 
-                <ul class="bar-nav">
-                    <li> <a href="#"><span class="filter-nav"> Filtres</span></a></li>
-                    <a href="#">
-                        <li class=" nav bar-icon"><span class="icon-bar"><i class="fas fa-money-bill-wave"></i></span> Economique </li>
-                    </a>
-                    <li class="nav bar-icon"><span class="icon-bar"><i class="fas fa-child"></i></span> Familial</li>
-                    <li class="bar-icon"><span class="icon-bar"><i class="fas fa-heart"></i></span> Romantique
-                    </li>
-                    <li class="bar-icon"><span class="icon-bar"><i class="fas fa-dog"></i></span> Animaux autorisés </a>
-                    </li>
-                </ul>
+                <div class="nav-head">
+                    <p class="filtres-nav"><a href="#"><span class="filter-nav"> Filtres</span></a></p>
+
+                    <ul class="bar-nav">
+
+                        <li class=" nav bar-icon">
+                            <span class="icon-bar"><i class="fas fa-money-bill-wave"></i></span> Economique
+                        </li>
+                        <li class="guzz bar-icon"><span class="icon-bar"><i class="fas fa-child"></i></span> Familial
+                        </li>
+                        <li class="bar-icon"><span class="icon-bar"><i class="fas fa-heart"></i></span> Romantique
+                        </li>
+                        <li class="bar-icon"><span class="icon-bar"><i class="fas fa-dog"></i></span> Animaux autorisés
+
+                        </li>
+                    </ul>
+                </div>
 
                 <p class="last-header"> <span class="icon-help"><i class="fas fa-info"></i></span> Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
@@ -73,15 +79,15 @@
                                 <img class="hebergement-image" src="Image_Reservia/herbergements/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge La Cannebiére" width="235" height="112">
 
                                 <figcaption class="hebergements-text"><strong>Auberge la Cannebiére</strong><br />
-                                </figcaption>
-                                <p class="item-test">Nuit à partir de 25€</p>
-                                <div class="hosting-test">
-                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                    <span class="icon-transp"><i class="fas fa-star"></i></span>
-                                </div>
+
+                                    <p class="item-test">Nuit à partir de 25€</p>
+                                    <div class="hosting-test">
+                                        <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                        <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                        <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                        <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                        <span class="icon-transp"><i class="fas fa-star"></i></span>
+                                    </div>
 
                                 </figcaption>
                             </figure>
@@ -92,16 +98,17 @@
                         <figure class="hotel-item">
                             <img class="hebergement-image" src="Image_Reservia/herbergements/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hotel du port" width="235" height="112">
 
-                            <figcaption class="hebergements-text"><strong>Hotel du port</strong><br /> </figcaption>
-                            <p class="item-test">Nuit à partir de 52€ </p>
+                            <figcaption class="hebergements-text"><strong>Hotel du port</strong><br />
+                                <p class="item-test">Nuit à partir de 52€ </p>
 
-                            <div class="hosting-test">
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                            </div>
+                                <div class="hosting-test">
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                </div>
+                            </figcaption>
 
 
 
@@ -113,16 +120,17 @@
 
                             <img class="hebergement-image" src="Image_Reservia/herbergements/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hotel les mouettes" width="235" height="112">
                             <figcaption class="hebergements-text"><strong>Hotel Les mouettes</strong><br />
-                            </figcaption>
-                            <p class="item-test">Nuit à partir de 76€</p>
-                            <div class="hosting-test">
 
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                <span class="icon-transp"><i class="fas fa-star"></i></span>
-                            </div>
+                                <p class="item-test">Nuit à partir de 76€</p>
+                                <div class="hosting-test">
+
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                    <span class="icon-transp"><i class="fas fa-star"></i></span>
+                                </div>
+                            </figcaption>
 
 
 
@@ -134,18 +142,19 @@
 
                             <img class="hebergement-image" src="Image_Reservia/herbergements/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="hotel de la mer" width="235" height="112">
 
-                            <figcaption class="hebergements-text"><strong>Hotel de la mer</strong><br /> </figcaption>
-                            <p class="item-test">Nuit à partir de 46€</p>
+                            <figcaption class="hebergements-text"><strong>Hotel de la mer</strong><br />
+                                <p class="item-test">Nuit à partir de 46€</p>
 
-                            <div class="hosting-test">
+                                <div class="hosting-test">
 
 
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                <span class="icon-transp"><i class="fas fa-star"></i></span>
-                                <span class="icon-transp"><i class="fas fa-star"></i></span>
-                            </div>
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                    <span class="icon-transp"><i class="fas fa-star"></i></span>
+                                    <span class="icon-transp"><i class="fas fa-star"></i></span>
+                                </div>
+                            </figcaption>
 
                         </figure>
                     </li>
@@ -155,15 +164,16 @@
 
                             <img class="hebergement-image" src="Image_Reservia/herbergements/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="auberge le panier" width="235" height="112">
 
-                            <figcaption class="hebergements-text"><strong>Auberge Le Panier</strong><br /> </figcaption>
-                            <p class="item-test">Nuit à partir de 23€</p>
-                            <div class="hosting-test">
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                <span class="icon-transp"><i class="fas fa-star"></i></span>
-                            </div>
+                            <figcaption class="hebergements-text"><strong>Auberge Le Panier</strong><br />
+                                <p class="item-test">Nuit à partir de 23€</p>
+                                <div class="hosting-test">
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                    <span class="icon-transp"><i class="fas fa-star"></i></span>
+                                </div>
+                            </figcaption>
 
 
                         </figure>
@@ -174,17 +184,18 @@
 
                             <img class="hebergement-image" src="Image_Reservia/herbergements/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="hotel chez Amina" width="235" height="112">
 
-                            <figcaption class="hebergements-text"><strong>Hotel chez Amina</strong> </br>
-                            </figcaption>
-                            <p class="item-test">Nuit à partir de 96€</p>
+                            <figcaption class="hebergements-text"><strong>Hotel chez Amina</strong> <br />
 
-                            <div class="hosting-test">
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                            </div>
+                                <p class="item-test">Nuit à partir de 96€</p>
+
+                                <div class="hosting-test">
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                </div>
+                            </figcaption>
 
 
                         </figure>
@@ -214,15 +225,16 @@
                             <figcaption class="most-popular-text">
                                 <strong class="night-text">Hotel le soleil du<br /> matin<br /></strong>
                                 <span class="night-popular">Nuit à partir de 128€</span> <br />
-                            </figcaption>
 
-                            <div class="icon-popular">
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                            </div>
+
+                                <div class="icon-popular">
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                </div>
+                            </figcaption>
                         </figure>
                     </li>
 
@@ -235,15 +247,17 @@
                                 <strong class="night-text">Au coeur de l'eau<br /> Chambres d'hotes<br /></strong>
                                 <span class="night-popular">Nuit à partir de 71€</span> <br />
 
+
+                                <div class="icon-popular">
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                    <span class="icon-transp"><i class="fas fa-star"></i></span>
+                                </div>
                             </figcaption>
-                            <div class="icon-popular">
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                <span class="icon-transp"><i class="fas fa-star"></i></span>
-                            </div>
                         </figure>
+
 
 
                     </li>
@@ -257,14 +271,15 @@
                                 <strong class="night-text">Hotel Tout bleu et<br /> Blanc<br /></strong>
                                 <span class="night-popular">Nuit à partir de 71€</span> <br />
 
+
+                                <div class="icon-popular">
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                    <span class="icon-shine"><i class="fas fa-star"></i></span>
+                                    <span class="icon-transp"><i class="fas fa-star"></i></span>
+                                </div>
                             </figcaption>
-                            <div class="icon-popular">
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                <span class="icon-shine"><i class="fas fa-star"></i></span>
-                                <span class="icon-transp"><i class="fas fa-star"></i></span>
-                            </div>
                         </figure>
                     </li>
                 </ul>
@@ -314,7 +329,7 @@
 
                 <figure class="activites-item">
 
-                    <img class="activites-image" src=" Image_Reservia/Activites/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg " alt=" Parc national " width=" 301 " height=" 388 ">
+                    <img class="activites-image" src=" Image_Reservia/Activites/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg " alt=" Parc national " width="301" height="388">
 
                     <figcaption class=" activites-text ">
                         <strong>Parc National des Calanques</strong>
@@ -327,7 +342,7 @@
 
                     <figure class=" activites-item">
 
-                        <img class=" activites-image " src=" Image_Reservia/Activites/florian-wehde-xW9e8gdotxI-unsplash.jpg " alt=" notre dame de la Garde " width=" 302 " height=" 140 ">
+                        <img class=" activites-image " src=" Image_Reservia/Activites/florian-wehde-xW9e8gdotxI-unsplash.jpg " alt=" notre dame de la Garde " width="302" height="140">
 
                         <figcaption class=" activites-text ">
                             <strong>Notre-Dame-de-la-Garde</strong>
@@ -337,7 +352,7 @@
 
                     <figure class=" activites-item">
 
-                        <img class=" activites-image " src=" Image_Reservia/Activites/lena-paulin-wH2-EJoDcV0-unsplash.jpg " alt=" parc longchamp " width=" 302 " height=" 140 ">
+                        <img class=" activites-image " src=" Image_Reservia/Activites/lena-paulin-wH2-EJoDcV0-unsplash.jpg " alt=" parc longchamp " width="302" height="140">
 
                         <figcaption class=" activites-text ">
                             <strong>Parc Longchamp</strong>
@@ -350,7 +365,7 @@
 
 
 
-            </ul>
+
         </section>
 
         <footer class=" last-part ">
