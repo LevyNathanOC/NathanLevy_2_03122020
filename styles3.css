@@ -1,6 +1,0 @@
-@media screen and (max-width:426px) {
-    #hebergements-marseille {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-}
