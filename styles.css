@@ -210,6 +210,7 @@ i.fa-search {
 .hosting-marseille {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     width: 100%;
     list-style: none;
     padding: 0;
@@ -222,6 +223,7 @@ i.fa-search {
     border-radius: 20px;
     padding: 6px;
     box-shadow: 0 0 16px #0000002e;
+    margin-left: 0;
 }
 
 .hebergement-image {
@@ -340,6 +342,8 @@ i.fa-search {
     background: white;
     box-shadow: 0px 5px 5px #0000002e;
     border-radius: 20px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .activites-image {
@@ -361,7 +365,7 @@ i.fa-search {
 }
 
 .placement {
-    width: 25%;
+    width: 22%;
 }
 
 footer {
