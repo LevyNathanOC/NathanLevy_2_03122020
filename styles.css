@@ -106,6 +106,7 @@ a {
  ::placeholder {
     color: black;
     font-size: 1rem;
+    font-weight: bold;
 }
 
 .button-search {
@@ -329,7 +330,7 @@ i.fa-search {
 
 .activites-list {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 98%;
     margin-left: 10px;
     margin-bottom: 20px;
@@ -339,11 +340,13 @@ i.fa-search {
     background: white;
     box-shadow: 0px 5px 5px #0000002e;
     border-radius: 20px;
+    width: 281px;
 }
 
 .activites-image {
     border-radius: 20px 20px 0 0;
     object-fit: cover;
+    width: 100%;
 }
 
 .activites-text {
@@ -355,6 +358,7 @@ i.fa-search {
 .container-activites {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 footer {
