@@ -186,6 +186,9 @@
                     width: 100%;
                     height: 200px;
                 }
+                .activites-item {
+                    width: 93%;
+                }
                 footer {
                     flex-direction: column;
                 }

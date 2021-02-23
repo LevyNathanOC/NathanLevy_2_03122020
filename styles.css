@@ -340,7 +340,6 @@ i.fa-search {
     background: white;
     box-shadow: 0px 5px 5px #0000002e;
     border-radius: 20px;
-    width: 281px;
 }
 
 .activites-image {
@@ -359,6 +358,10 @@ i.fa-search {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.placement {
+    width: 25%;
 }
 
 footer {
