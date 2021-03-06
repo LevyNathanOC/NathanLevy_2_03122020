@@ -1,213 +1,216 @@
-            @media only screen and (max-width:426px) {
-                body {
-                    margin: 0px;
-                }
-                .container {
-                    margin: 0 auto;
-                }
-                .container-header {
-                    display: flex;
-                    flex-direction: column;
-                }
-                .lien-signup {
-                    position: absolute;
-                    top: 15px;
-                    right: 5px;
-                }
-                .link {
-                    position: relative;
-                    right: 50px;
-                }
-                .lien-hebergements::before {
-                    position: relative;
-                    content: "";
-                    display: inline-block;
-                    height: 2px;
-                    width: 100%;
-                    background: #0065fc;
-                    position: absolute;
-                    top: 30px;
-                }
-                .search-bar {
-                    width: 100%;
-                }
-                .button-search {
-                    width: 30px;
-                    border-radius: 10px;
-                }
-                .search {
-                    display: none;
-                }
-                i.fa-search {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                }
-                .nav-head {
-                    display: flex;
-                    flex-direction: column;
-                }
-                .filtres-nav {
-                    width: 120px;
-                }
-                .bar-nav {
-                    display: flex;
-                    flex-wrap: wrap;
-                }
-                .bar-nav li {
-                    margin-top: 10px;
-                }
-                .last-header {
-                    margin-top: 15px;
-                    margin-bottom: 20px;
-                }
-                .header-content {
-                    margin-left: 5px;
-                }
-                #hebergements-marseille {
-                    display: flex;
-                    flex-direction: column-reverse;
-                }
-                .most-popular {
-                    width: 80%;
-                    border-radius: 0;
-                    margin: 0;
-                    padding: 35px 10% 10px 10%;
-                }
-                .hosting-main {
-                    background: none;
-                    padding: 0;
-                    margin-left: 0;
-                    margin-right: 0;
-                }
-                .hotel-item {
-                    width: 100%;
-                    margin-left: 49px;
-                }
-                .most-popular-item {
-                    width: 100%;
-                }
-                .hebergement-image {
-                    width: 100%;
-                }
-                .activites-list {
-                    display: flex;
-                    flex-direction: column;
-                    margin-left: 5px;
-                }
-                .activites-image {
-                    width: 100%;
-                    height: 133px;
-                }
-                .activites-item {
-                    width: 100%;
-                    margin-left: 0;
-                    margin-right: 0;
-                }
-                .placement {
-                    width: 100%;
-                }
-                .last-part {
-                    display: flex;
-                    flex-direction: column;
-                    width: 100%;
-                }
-                .night-popular {
-                    margin-top: 0;
-                }
-                .about {
-                    margin-left: 20px;
-                }
-            }
-            
-            @media screen and (min-width:376px) and (max-width:426px) {
-                .search-bar {
-                    width: 390px;
-                }
-                .hotel-item {
-                    width: 100%;
-                }
-                .hebergement-image {
-                    width: 100%;
-                }
-                .activites-image {
-                    width: 100%;
-                    height: 133px;
-                }
-                .activites-item {
-                    width: 100%;
-                }
-                .placement {
-                    width: 100%;
-                }
-            }
-            
-            @media screen and (min-width:340px) and (max-width:376px) {
-                .lien-signup {
-                    position: absolute;
-                    top: 18px;
-                }
-                .activites-image {
-                    width: 100%;
-                    height: 133px;
-                }
-                .activites-item {
-                    width: 77%;
-                    margin-left: auto;
-                    margin-right: auto;
-                }
-                .placement {
-                    width: 100%;
-                }
-                .hotel-item {
-                    width: 100%;
-                }
-                .hebergement-image {
-                    width: 100%;
-                }
-            }
-            
-            @media screen and (min-width:767px) and (max-width:1074px) {
-                .bar-icon {
-                    margin: 14px;
-                }
-                #hebergements-marseille {
-                    width: 100%;
-                    display: flex;
-                    flex-direction: column;
-                }
-                .hosting-main {
-                    width: 87%;
-                }
-                .hosting-marseille {
-                    display: flex;
-                    flex-wrap: wrap;
-                    width: 100%;
-                }
-                .hotel-item {
-                    margin: 27px;
-                }
-                .most-popular {
-                    width: 90%;
-                }
-                .activites-list {
-                    display: flex;
-                    flex-direction: column;
-                }
-                .activites-image {
-                    width: 100%;
-                    height: 200px;
-                }
-                .activites-item {
-                    width: 93%;
-                }
-                footer {
-                    flex-direction: column;
-                }
-                .about {
-                    margin-left: 20px;
-                }
-                .placement {
-                    width: 100%;
-                }
-            }
+ @media only screen and (max-width:426px) {
+     body {
+         margin: 0px;
+     }
+     .container {
+         margin: 0 auto;
+     }
+     .container-header {
+         display: flex;
+         flex-direction: column;
+     }
+     .lien-signup {
+         position: absolute;
+         top: 15px;
+         right: 5px;
+     }
+     .link {
+         position: relative;
+         right: 50px;
+     }
+     .lien-hebergements::before {
+         position: relative;
+         content: "";
+         display: inline-block;
+         height: 2px;
+         width: 100%;
+         background: #0065fc;
+         position: absolute;
+         top: 30px;
+     }
+     .search-bar {
+         width: 100%;
+     }
+     .button-search {
+         width: 30px;
+         border-radius: 10px;
+     }
+     .search {
+         display: none;
+     }
+     i.fa-search {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+     .nav-head {
+         display: flex;
+         flex-direction: column;
+     }
+     .filtres-nav {
+         width: 120px;
+     }
+     .bar-nav {
+         display: flex;
+         flex-wrap: wrap;
+     }
+     .bar-nav li {
+         margin-top: 10px;
+     }
+     .last-header {
+         margin-top: 15px;
+         margin-bottom: 20px;
+     }
+     .header-content {
+         margin-left: 5px;
+     }
+     #hebergements-marseille {
+         display: flex;
+         flex-direction: column-reverse;
+     }
+     .most-popular {
+         width: 80%;
+         border-radius: 0;
+         margin: 0;
+         padding: 35px 10% 10px 10%;
+     }
+     .hosting-main {
+         background: none;
+         padding: 0;
+         margin-left: 0;
+         margin-right: 0;
+     }
+     .hotel-item {
+         width: 100%;
+         margin-left: 49px;
+     }
+     .most-popular-item {
+         width: 100%;
+     }
+     .hebergement-image {
+         width: 100%;
+     }
+     .activites-list {
+         display: flex;
+         flex-direction: column;
+         margin-left: 5px;
+     }
+     .activites-image {
+         width: 100%;
+         height: 133px;
+     }
+     .activites-item {
+         width: 100%;
+         margin-left: 0;
+         margin-right: 0;
+     }
+     .placement {
+         width: 100%;
+     }
+     .last-part {
+         display: flex;
+         flex-direction: column;
+         width: 100%;
+     }
+     .night-popular {
+         margin-top: 0;
+     }
+     .about {
+         margin-left: 20px;
+     }
+ }
+ 
+ @media screen and (min-width:376px) and (max-width:426px) {
+     .search-bar {
+         width: 390px;
+     }
+     .hotel-item {
+         width: 100%;
+     }
+     .hebergement-image {
+         width: 100%;
+     }
+     .most-popular-item {
+         width: 100%;
+     }
+     .activites-image {
+         width: 100%;
+         height: 133px;
+     }
+     .activites-item {
+         width: 100%;
+     }
+     .placement {
+         width: 100%;
+     }
+ }
+ 
+ @media screen and (min-width:340px) and (max-width:376px) {
+     .lien-signup {
+         position: absolute;
+         top: 18px;
+     }
+     .activites-image {
+         width: 100%;
+         height: 133px;
+     }
+     .activites-item {
+         width: 77%;
+         margin-left: auto;
+         margin-right: auto;
+     }
+     .placement {
+         width: 100%;
+     }
+     .hotel-item {
+         width: 100%;
+     }
+     .hebergement-image {
+         width: 100%;
+     }
+ }
+ 
+ @media screen and (min-width:767px) and (max-width:1074px) {
+     .bar-icon {
+         margin: 14px;
+     }
+     #hebergements-marseille {
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+     }
+     .hosting-main {
+         width: 87%;
+     }
+     .hosting-marseille {
+         display: flex;
+         flex-wrap: wrap;
+         width: 100%;
+     }
+     .hotel-item {
+         margin: 27px;
+     }
+     .most-popular {
+         width: 90%;
+     }
+     .activites-list {
+         display: flex;
+         flex-direction: column;
+     }
+     .activites-image {
+         width: 100%;
+         height: 200px;
+     }
+     .activites-item {
+         width: 93%;
+     }
+     footer {
+         flex-direction: column;
+     }
+     .about {
+         margin-left: 20px;
+     }
+     .placement {
+         width: 100%;
+     }
+ }
